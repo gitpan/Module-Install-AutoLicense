@@ -5,6 +5,7 @@ author:
 build_requires:
   Capture::Tiny: 0.05
   ExtUtils::MakeMaker: 6.42
+  File::Temp: 0
   Test::More: 0.47
 configure_requires:
   ExtUtils::MakeMaker: 6.42
@@ -22,7 +23,7 @@ no_index:
 provides:
   Module::Install::AutoLicense:
     file: lib/Module/Install/AutoLicense.pm
-    version: 0.04
+    version: 0.06
 requires:
   Module::Install: 0.85
   Software::License: 0.01
@@ -31,4 +32,4 @@ resources:
   homepage: http://github.com/bingos/module-install-autolicense/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/module-install-autolicense.git
-version: 0.04
+version: 0.06
