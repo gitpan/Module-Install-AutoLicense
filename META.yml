@@ -23,7 +23,7 @@ no_index:
 provides:
   Module::Install::AutoLicense:
     file: lib/Module/Install/AutoLicense.pm
-    version: 0.06
+    version: 0.08
 requires:
   Module::Install: 0.85
   Software::License: 0.01
@@ -32,4 +32,4 @@ resources:
   homepage: http://github.com/bingos/module-install-autolicense/tree
   license: http://dev.perl.org/licenses/
   repository: git://github.com/bingos/module-install-autolicense.git
-version: 0.06
+version: 0.08
